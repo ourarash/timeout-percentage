@@ -7,9 +7,9 @@
 [downloadst-image]: https://img.shields.io/npm/dt/timeout-percentage.svg
 [downloads-url]: https://npmjs.org/package/timeout-percentage
 
-Similar to setTimeout, but with multiple intervals to report elapsed time.
+Similar to `setTimeout`, but with multiple intervals to report elapsed time.
 
-For example, for a timeout value of 1000, you can set 10 intervals, each 100ms, where you get a callback which reports the elapsed time in percentage. This is usefule for creating progress bars.
+For example, for a timeout value of `1000ms`, you can set `10` intervals, each `100ms`, where you get a callback which reports the elapsed time in percentage. This is usefule for creating progress bars.
 
 ## Limitation
 Currently only one active timeout can be used at each time.
@@ -59,7 +59,4 @@ Interval finished!
 */
 ```
 
-
-
 See [test/test.js](test/test.js) for more examples.
-# timeout-percentage
