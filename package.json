@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha --reporter spec"
   },
-  "keywords": [],
+  "keywords": ["timeout", "intervals", "progress", "setTimeout", "setInterval"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
