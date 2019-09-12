@@ -1,7 +1,7 @@
 {
   "name": "timeout-percentage",
   "version": "1.0.0",
-  "main": "examples/usage.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
