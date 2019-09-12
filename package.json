@@ -1,6 +1,6 @@
 {
   "name": "timeout-percentage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --reporter spec"
@@ -18,5 +18,5 @@
     "test": "test"
   },
   "dependencies": {},
-  "description": ""
+  "description": "Similar to setTimeout, but with multiple intervals to report elapsed time."
 }
