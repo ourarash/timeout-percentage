@@ -1,15 +1,17 @@
 # timeout-percentage
 
 [![NPM](https://badge.fury.io/js/timeout-percentage.svg)](https://www.npmjs.com/package/timeout-percentage)
-[![NPM Downloads][downloadst-image]][downloads-url]
+[![NPM Downloads][download-image]][downloads-url]
 
 [downloads-image]: https://img.shields.io/npm/dm/timeout-percentage.svg
-[downloadst-image]: https://img.shields.io/npm/dt/timeout-percentage.svg
+[downloads-image]: https://img.shields.io/npm/dt/timeout-percentage.svg
 [downloads-url]: https://npmjs.org/package/timeout-percentage
 
-Similar to `setTimeout`, but with multiple intervals to report elapsed time.
+Similar to `setTimeout`, but periodically reports what percentage of the time has elapsed.
 
-For example, for a timeout value of `1000ms`, you can set `10` intervals, each `100ms`, where you get a callback which reports the elapsed time in percentage. This is usefule for creating progress bars.
+For example, for a timeout value of `1000ms`, you can set `10` intervals, each `100ms`, where you get a callback which reports the elapsed time in percentage. This is useful for creating progress bars.
+
+You can also cancel the timeout before it ends.
 
 ## Limitation
 Currently only one active timeout can be used at each time.
