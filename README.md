@@ -1,9 +1,10 @@
 # timeout-percentage
 
 [![NPM](https://badge.fury.io/js/timeout-percentage.svg)](https://www.npmjs.com/package/timeout-percentage)
-[![NPM Downloads][download-image]][downloads-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+<!-- [![NPM Downloads][downloads-image-m]][downloads-url] -->
 
-[downloads-image]: https://img.shields.io/npm/dm/timeout-percentage.svg
+[downloads-image-m]: https://img.shields.io/npm/dm/timeout-percentage.svg
 [downloads-image]: https://img.shields.io/npm/dt/timeout-percentage.svg
 [downloads-url]: https://npmjs.org/package/timeout-percentage
 
