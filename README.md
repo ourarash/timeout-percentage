@@ -62,3 +62,12 @@ Interval finished!
 ```
 
 See [test/test.js](test/test.js) for more examples.
+
+# Cancelling the timer
+You can cancel a timer that is still running:
+
+```javascript
+let myTimer = tp().start(options);
+tp().stop(myTimer);
+```
+

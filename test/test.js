@@ -137,6 +137,7 @@ it("should stop the timeout", done => {
 
   setTimeout(function() {
     tp().stop(timer);
+    tp().stop(timer);
   }, 20);
 
   setTimeout(function() {
