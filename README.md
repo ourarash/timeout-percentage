@@ -14,8 +14,7 @@ For example, for a timeout value of `1000ms`, you can set `10` intervals, each `
 
 You can also cancel the timeout before it ends.
 
-## Update
-It can be called multiple times in parallel to setup multiple parallel timeouts.
+**Update**: Now it can be called multiple times in parallel to setup multiple parallel timeouts.
 
 # Install
 
