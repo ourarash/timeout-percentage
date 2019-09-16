@@ -1,9 +1,9 @@
 {
   "name": "timeout-percentage",
-  "version": "1.0.4",
-  "main": "lib/index.js",
+  "version": "1.0.5",
+  "main": "examples/usage.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec --timeout 10000"
   },
   "repository": {
     "type": "git",

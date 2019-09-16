@@ -15,5 +15,5 @@ let options = {
   numberOfIntervals: 10 // Number of intervals
 };
 
-tp(options).start();
+tp().start(options);
 

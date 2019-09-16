@@ -14,8 +14,8 @@ For example, for a timeout value of `1000ms`, you can set `10` intervals, each `
 
 You can also cancel the timeout before it ends.
 
-## Limitation
-Currently only one active timeout can be used at each time.
+## Update
+It can be called multiple times in parallel to setup multiple parallel timeouts.
 
 # Install
 
@@ -43,7 +43,7 @@ let options = {
   numberOfIntervals: 10 // Number of intervals
 };
 
-tp(options).start();
+tp().start(options);
 
 /*
 Output:
